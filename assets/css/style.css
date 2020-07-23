@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: block;
+    width: 95vw;
+    height: 90vh;
+    background: #938274;
+    margin: 0 auto;
+}
+.fator{
+    display: block;
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #4d4646;
+}
+.fator::placeholder{
+    text-align: center;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+}
+.container{
+    width: 250px;
+    display: block;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    margin: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: justify;
+    margin: 30px auto;
+}
+.btn{
+    color: #000;
+    background: #f8caa5;
+    border: none;
+    font-weight: bold;
+    margin: 10px 20%;
+    display: block;
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.btn:hover{
+    background: #e9b285;
+}

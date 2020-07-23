@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="card">
+        <section class="container">
+
+        </section>
+        <input type="text" class="fator" id="numeroInicial" placeholder="Digite a tabuada que você deseja" maxlength="15">
+        <input type="text" id="porQuantoQuerMultiplicar" class="fator" placeholder="Quantas vezes serão multiplicadas">
+
+        <button class="btn" id="btn" onclick="tab.mostrarTabuada(event)">Calcular</button>
+    </div>
+    <script src="./assets/js/Model/TabuadaModel.js"></script>
+    <script src="./assets/js/Controllers/TabuadaController.js"></script>
+    <script src="./assets/js/View/TabuadaView.js"></script>
+    <script>
+        let tab = new TabuadaController()
+
+    </script>
+</body>
+</html>
